@@ -6,6 +6,5 @@ import cn.tyler.mybatis_spring.vo.EmpVO;
 
 public interface MapperDemo
 {
-
     EmpVO findEmpByNumber(@Param("number")int number);
 }
